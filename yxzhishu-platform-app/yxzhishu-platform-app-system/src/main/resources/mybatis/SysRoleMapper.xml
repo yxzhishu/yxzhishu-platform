@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxzhishu.platform.app.system.mapper.SysRoleMapper">
+    <sql id="baseParam">
+        a.role_id,a.role_name,a.role_key,a.role_type,a.sort_order,a.status,a.description,a.system_flag,a.sort_order
+    </sql>
+    <select id="findRole" resultType="com.yxzhishu.platform.app.system.entity.dto.SysRoleDTO">
+        select
+        <include refid="baseParam"/>
+        from sys.role a
+        <where>
+            <if test="status != null">
+                and a.status = #{status}
+            </if>
+            <if test="search != null and search != ''">
+                and (
+                a.role_name like concat('%', #{search}, '%')
+                or a.role_key like concat('%', #{search}, '%')
+                )
+            </if>
+        </where>
+        order by a.sort_order
+    </select>
+    <select id="findByRoleId" resultType="com.yxzhishu.platform.app.system.entity.dto.SysRoleDTO">
+        select
+        <include refid="baseParam"/>
+        from sys.role a
+        where a.role_id in
+        <foreach collection="roleIdList" open="(" close=")" item="item"  separator=",">
+            #{item}
+        </foreach>
+        order by a.sort_order
+    </select>
+    <select id="findByAccurate" resultType="com.yxzhishu.platform.app.system.entity.dto.SysRoleDTO"
+            parameterType="com.yxzhishu.platform.app.api.system.entity.param.PageRoleByAccurateParam">
+        select
+        <include refid="baseParam"/>,b.account_id
+        from sys.role a
+        left join sys.account_vs_role b on a.role_id = b.role_id
+        <where>
+            <if test="status != null and status != -1">
+                and a.status = #{status}
+            </if>
+            <if test="roleId != null and roleId != -1">
+                and a.role_id = #{roleId}
+            </if>
+            <if test="accountId != null and accountId != -1">
+                and b.account_id =#{accountId}
+            </if>
+            <if test="deptId != null and deptId != -1">
+                and a.dept_id =#{deptId}
+            </if>
+            <if test="accountIdList != null">
+                and b.account_id in
+                <foreach collection="accountIdList" open="(" close=")" item="item"  separator=",">
+                    #{item}
+                </foreach>
+            </if>
+            <if test="roleIdList != null">
+                and a.role_id in
+                <foreach collection="roleIdList" open="(" close=")" item="item"  separator=",">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+        order by a.sort_order
+    </select>
+</mapper>

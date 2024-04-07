@@ -1,0 +1,29 @@
+2024-03-18 09:28:38 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-18 09:28:38 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 5876 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-18 09:28:38 -No active profile set, falling back to 1 default profile: "default"
+2024-03-18 09:28:40 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-18 09:28:41 -Tomcat initialized with port(s): 8092 (http)
+2024-03-18 09:28:41 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-18 09:28:41 -Starting service [Tomcat]
+2024-03-18 09:28:41 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-18 09:28:46 -Initializing Spring embedded WebApplicationContext
+2024-03-18 09:28:46 -Root WebApplicationContext: initialization completed in 7503 ms
+2024-03-18 09:28:46 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-18 09:28:46 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-18 09:28:46 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-18 09:28:46 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-18 09:28:47 -api模块自动加载成功...
+2024-03-18 09:28:47 -base模块自动加载成功...
+2024-03-18 09:28:47 -dictionary模块自动加载成功...
+2024-03-18 09:28:47 -system模块自动加载成功...
+2024-03-18 09:28:47 -temporary模块自动加载成功...
+2024-03-18 09:28:48 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-18 09:28:48 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-18 09:28:48 -Started YxzhishuPlatformAppStartApplication in 10.283 seconds (JVM running for 12.769)
+2024-03-18 09:28:48 -项目启动成功！
+2024-03-18 09:29:02 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 09:29:02 -Initializing Servlet 'dispatcherServlet'
+2024-03-18 09:29:02 -Completed initialization in 0 ms
+2024-03-18 09:29:02 -{dataSource-1} inited
+2024-03-18 09:31:48 -{dataSource-1} closing ...
+2024-03-18 09:31:48 -{dataSource-1} closed

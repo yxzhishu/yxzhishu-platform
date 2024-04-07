@@ -1,0 +1,43 @@
+# 服务器配置
+server:
+  # 启动端口
+  port: 8092
+  # 服务
+  servlet:
+    # 全局路径
+    context-path: /api
+
+spring:
+  jackson:
+    # 时间格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    # 时区
+    time-zone: GMT+8
+  main:
+    # 控制台打印
+    banner-mode: console
+  #数据库连接
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:postgresql://127.0.0.1:5432/yx_platform
+    username: postgres
+    password: dlzhmm10433
+
+sa-token:
+  # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+  active-timeout: -1
+  # 是否允许同一账号多地同时登录 （为 true 时允许一起登录, 为 false 时新登录挤掉旧登录）
+  is-concurrent: false
+  # sa-token图标
+  is-print: on
+  # token有效期，单位s 默认30天, -1代表永不过期
+  timeout: 86400
+
+mybatis-plus:
+  global-config:
+    db-config:
+      # 逻辑删除字段名
+      logic-delete-field: invalidFlag
+  # 使用xml配置
+  mapper-locations: classpath*:mybatis/**/*.xml

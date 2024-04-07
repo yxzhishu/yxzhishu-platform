@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxzhishu.platform.app.system.mapper.LogProblemMapper">
+    <sql id="baseParam">
+        select a.problem_id,a.problem_title,a.problem_value,a.answer_value,a.creater_id,
+        a.create_time,a.answer_id,a.answer_time
+    </sql>
+    <select id="findLogProblem" resultType="com.yxzhishu.platform.app.system.entity.dto.LogProblemDTO"
+            parameterType="com.yxzhishu.platform.app.api.system.entity.param.PageSearchParam">
+        <include refid="baseParam"/>,
+        b.nickname as creater_name,c.nickname as answer_name
+        from sys.log_problem a
+        left join sys.account b on b.account_id = a.creater_id
+        left join sys.account c on c.account_id = a.answer_id
+        <where>
+            <if test="search != null and search != ''">
+                and (
+                a.problem_title like concat('%', #{search}, '%')
+                )
+            </if>
+        </where>
+    </select>
+</mapper>

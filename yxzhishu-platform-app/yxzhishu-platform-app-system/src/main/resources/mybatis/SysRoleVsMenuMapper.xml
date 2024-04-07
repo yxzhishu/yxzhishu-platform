@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxzhishu.platform.app.system.mapper.SysRoleVsMenuMapper">
+    <sql id="basesql">
+        select role_id,menu_id
+    </sql>
+    <delete id="deleteVsInfo">
+        delete from sys.role_vs_menu
+        where role_id = #{roleId}
+        and menu_id = #{menuId}
+    </delete>
+    <select id="findData" resultType="com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu">
+        <include refid="basesql"/>
+        from sys.role_vs_menu
+        <where>
+            <if test="menuId != null">
+                and menu_id = #{menuId}
+            </if>
+            <if test="roleId != null">
+                and role_id = #{roleId}
+            </if>
+        </where>
+    </select>
+</mapper>

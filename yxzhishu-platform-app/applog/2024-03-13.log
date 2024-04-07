@@ -1,0 +1,233 @@
+2024-03-13 16:44:09 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-13 16:44:09 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 18292 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-13 16:44:09 -No active profile set, falling back to 1 default profile: "default"
+2024-03-13 16:44:11 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-13 16:44:12 -Tomcat initialized with port(s): 8092 (http)
+2024-03-13 16:44:12 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:44:12 -Starting service [Tomcat]
+2024-03-13 16:44:12 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-13 16:44:12 -Initializing Spring embedded WebApplicationContext
+2024-03-13 16:44:12 -Root WebApplicationContext: initialization completed in 2700 ms
+2024-03-13 16:44:13 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-13 16:44:13 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:44:13 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-13 16:44:13 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:44:14 -api模块自动加载成功...
+2024-03-13 16:44:14 -base模块自动加载成功...
+2024-03-13 16:44:14 -dictionary模块自动加载成功...
+2024-03-13 16:44:14 -system模块自动加载成功...
+2024-03-13 16:44:14 -temporary模块自动加载成功...
+2024-03-13 16:44:14 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:44:14 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-13 16:44:14 -Started YxzhishuPlatformAppStartApplication in 6.364 seconds (JVM running for 8.303)
+2024-03-13 16:44:14 -项目启动成功！
+2024-03-13 16:45:22 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 16:45:22 -Initializing Servlet 'dispatcherServlet'
+2024-03-13 16:45:22 -Completed initialization in 0 ms
+2024-03-13 16:45:23 -{dataSource-1} inited
+2024-03-13 16:45:23 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   select a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id                    order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   select a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id                    order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:50)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "select" 或附近的
+  位置：26
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-13 16:45:51 -{dataSource-1} closing ...
+2024-03-13 16:45:51 -{dataSource-1} closed
+2024-03-13 16:45:59 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-13 16:45:59 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 5024 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-13 16:45:59 -No active profile set, falling back to 1 default profile: "default"
+2024-03-13 16:46:00 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-13 16:46:01 -Tomcat initialized with port(s): 8092 (http)
+2024-03-13 16:46:01 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:46:01 -Starting service [Tomcat]
+2024-03-13 16:46:01 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-13 16:46:01 -Initializing Spring embedded WebApplicationContext
+2024-03-13 16:46:01 -Root WebApplicationContext: initialization completed in 1511 ms
+2024-03-13 16:46:01 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-13 16:46:01 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:46:02 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-13 16:46:02 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:46:02 -api模块自动加载成功...
+2024-03-13 16:46:02 -base模块自动加载成功...
+2024-03-13 16:46:02 -dictionary模块自动加载成功...
+2024-03-13 16:46:02 -system模块自动加载成功...
+2024-03-13 16:46:02 -temporary模块自动加载成功...
+2024-03-13 16:46:02 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:46:02 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-13 16:46:02 -Started YxzhishuPlatformAppStartApplication in 4.076 seconds (JVM running for 5.346)
+2024-03-13 16:46:02 -项目启动成功！
+2024-03-13 16:46:06 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 16:46:06 -Initializing Servlet 'dispatcherServlet'
+2024-03-13 16:46:06 -Completed initialization in 2 ms
+2024-03-13 16:46:06 -{dataSource-1} inited
+2024-03-13 16:47:56 -{dataSource-1} closing ...
+2024-03-13 16:47:56 -{dataSource-1} closed
+2024-03-13 16:51:56 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-13 16:51:56 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 7696 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-13 16:51:56 -No active profile set, falling back to 1 default profile: "default"
+2024-03-13 16:51:58 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-13 16:51:58 -Tomcat initialized with port(s): 8092 (http)
+2024-03-13 16:51:58 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:51:58 -Starting service [Tomcat]
+2024-03-13 16:51:58 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-13 16:51:58 -Initializing Spring embedded WebApplicationContext
+2024-03-13 16:51:58 -Root WebApplicationContext: initialization completed in 2502 ms
+2024-03-13 16:51:59 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-13 16:51:59 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:52:00 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-13 16:52:00 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:52:00 -api模块自动加载成功...
+2024-03-13 16:52:00 -base模块自动加载成功...
+2024-03-13 16:52:00 -dictionary模块自动加载成功...
+2024-03-13 16:52:00 -system模块自动加载成功...
+2024-03-13 16:52:00 -temporary模块自动加载成功...
+2024-03-13 16:52:00 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:52:00 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-13 16:52:00 -Started YxzhishuPlatformAppStartApplication in 6.03 seconds (JVM running for 16.137)
+2024-03-13 16:52:00 -项目启动成功！
+2024-03-13 16:52:11 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 16:52:11 -Initializing Servlet 'dispatcherServlet'
+2024-03-13 16:52:11 -Completed initialization in 2 ms
+2024-03-13 16:52:11 -{dataSource-1} inited
+2024-03-13 16:53:35 -{dataSource-1} closing ...
+2024-03-13 16:53:35 -{dataSource-1} closed
+2024-03-13 16:54:32 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-13 16:54:32 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 2612 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-13 16:54:32 -No active profile set, falling back to 1 default profile: "default"
+2024-03-13 16:54:33 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-13 16:54:34 -Tomcat initialized with port(s): 8092 (http)
+2024-03-13 16:54:34 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:54:34 -Starting service [Tomcat]
+2024-03-13 16:54:34 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-13 16:54:34 -Initializing Spring embedded WebApplicationContext
+2024-03-13 16:54:34 -Root WebApplicationContext: initialization completed in 2391 ms
+2024-03-13 16:54:35 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-13 16:54:35 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:54:35 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-13 16:54:35 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-13 16:54:36 -api模块自动加载成功...
+2024-03-13 16:54:36 -base模块自动加载成功...
+2024-03-13 16:54:36 -dictionary模块自动加载成功...
+2024-03-13 16:54:36 -system模块自动加载成功...
+2024-03-13 16:54:36 -temporary模块自动加载成功...
+2024-03-13 16:54:36 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-13 16:54:36 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-13 16:54:36 -Started YxzhishuPlatformAppStartApplication in 8.96 seconds (JVM running for 17.595)
+2024-03-13 16:54:36 -项目启动成功！
+2024-03-13 16:54:47 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 16:54:47 -Initializing Servlet 'dispatcherServlet'
+2024-03-13 16:54:47 -Completed initialization in 1 ms
+2024-03-13 16:54:48 -{dataSource-1} inited
+2024-03-13 17:00:09 -{dataSource-1} closing ...
+2024-03-13 17:00:09 -{dataSource-1} closed

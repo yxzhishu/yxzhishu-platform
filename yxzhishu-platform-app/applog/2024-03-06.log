@@ -1,0 +1,1349 @@
+2024-03-06 11:21:46 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 11:21:46 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 17256 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 11:21:46 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 11:21:47 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 11:21:47 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 11:21:47 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:21:47 -Starting service [Tomcat]
+2024-03-06 11:21:47 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 11:21:47 -Initializing Spring embedded WebApplicationContext
+2024-03-06 11:21:47 -Root WebApplicationContext: initialization completed in 1150 ms
+2024-03-06 11:21:47 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 11:21:47 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:21:48 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 11:21:48 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:21:48 -api模块自动加载成功...
+2024-03-06 11:21:48 -base模块自动加载成功...
+2024-03-06 11:21:48 -dictionary模块自动加载成功...
+2024-03-06 11:21:48 -system模块自动加载成功...
+2024-03-06 11:21:48 -temporary模块自动加载成功...
+2024-03-06 11:21:48 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:21:48 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 11:21:48 -Started YxzhishuPlatformAppStartApplication in 3.026 seconds (JVM running for 4.032)
+2024-03-06 11:21:48 -项目启动成功！
+2024-03-06 11:25:25 -{dataSource-0} closing ...
+2024-03-06 11:55:01 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 11:55:01 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 20692 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 11:55:01 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 11:55:02 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 11:55:02 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 11:55:02 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:55:02 -Starting service [Tomcat]
+2024-03-06 11:55:02 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 11:55:03 -Initializing Spring embedded WebApplicationContext
+2024-03-06 11:55:03 -Root WebApplicationContext: initialization completed in 1218 ms
+2024-03-06 11:55:03 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 11:55:03 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:55:03 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 11:55:03 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:55:04 -api模块自动加载成功...
+2024-03-06 11:55:04 -base模块自动加载成功...
+2024-03-06 11:55:04 -dictionary模块自动加载成功...
+2024-03-06 11:55:04 -system模块自动加载成功...
+2024-03-06 11:55:04 -temporary模块自动加载成功...
+2024-03-06 11:55:04 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:55:04 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 11:55:04 -Started YxzhishuPlatformAppStartApplication in 3.158 seconds (JVM running for 4.134)
+2024-03-06 11:55:04 -项目启动成功！
+2024-03-06 11:58:15 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 11:58:15 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 11:58:15 -Completed initialization in 2 ms
+2024-03-06 11:58:15 -{dataSource-1} inited
+2024-03-06 11:58:15 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysAccountMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select a.account_id,a.account_code,a.password,a.salt,a.nickname,a.status,         a.phone,a.email,a.description,a.avatar,a.last_login_time,a.system_flag,         a.last_login_ip,a.role_id               from sys.account a          WHERE  account_code = ?
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysAccountMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select a.account_id,a.account_code,a.password,a.salt,a.nickname,a.status,         a.phone,a.email,a.description,a.avatar,a.last_login_time,a.system_flag,         a.last_login_ip,a.role_id               from sys.account a          WHERE  account_code = ?
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:101)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy77.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysAccountServiceImpl.findByAccurate(SysAccountServiceImpl.java:91)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.doLogin(SysAccountBusinessImpl.java:53)
+	at com.yxzhishu.platform.app.system.controller.SysAccountController.doLogin(SysAccountController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 字段 a.role_id 不存在
+  位置：179
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 11:58:35 -{dataSource-1} closing ...
+2024-03-06 11:58:35 -{dataSource-1} closed
+2024-03-06 11:58:37 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 11:58:37 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 16808 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 11:58:37 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 11:58:38 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 11:58:39 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 11:58:39 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:58:39 -Starting service [Tomcat]
+2024-03-06 11:58:39 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 11:58:39 -Initializing Spring embedded WebApplicationContext
+2024-03-06 11:58:39 -Root WebApplicationContext: initialization completed in 1348 ms
+2024-03-06 11:58:40 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 11:58:40 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:58:40 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 11:58:40 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 11:58:41 -api模块自动加载成功...
+2024-03-06 11:58:41 -base模块自动加载成功...
+2024-03-06 11:58:41 -dictionary模块自动加载成功...
+2024-03-06 11:58:41 -system模块自动加载成功...
+2024-03-06 11:58:41 -temporary模块自动加载成功...
+2024-03-06 11:58:41 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 11:58:41 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 11:58:41 -Started YxzhishuPlatformAppStartApplication in 3.788 seconds (JVM running for 4.641)
+2024-03-06 11:58:41 -项目启动成功！
+2024-03-06 11:58:44 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 11:58:44 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 11:58:44 -Completed initialization in 1 ms
+2024-03-06 11:58:44 -{dataSource-1} inited
+2024-03-06 11:58:45 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysRoleMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysRoleMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.role_id,a.role_name,a.role_key,a.role_type,dept_id,a.sort_order,a.status,a.description,a.system_flag,a.sort_order      ,b.account_id         from sys.role a         left join sys.account_vs_role b on a.role_id = b.role_id          WHERE  b.account_id =?          order by a.sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysRoleMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysRoleMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.role_id,a.role_name,a.role_key,a.role_type,dept_id,a.sort_order,a.status,a.description,a.system_flag,a.sort_order      ,b.account_id         from sys.role a         left join sys.account_vs_role b on a.role_id = b.role_id          WHERE  b.account_id =?          order by a.sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:101)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy78.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysRoleServiceImpl.findByAccurate(SysRoleServiceImpl.java:67)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.findRole(SysAccountBusinessImpl.java:216)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.doLogin(SysAccountBusinessImpl.java:71)
+	at com.yxzhishu.platform.app.system.controller.SysAccountController.doLogin(SysAccountController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 64 common frames omitted
+2024-03-06 11:58:46 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysRoleMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysRoleMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.role_id,a.role_name,a.role_key,a.role_type,dept_id,a.sort_order,a.status,a.description,a.system_flag,a.sort_order      ,b.account_id         from sys.role a         left join sys.account_vs_role b on a.role_id = b.role_id          WHERE  b.account_id =?          order by a.sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysRoleMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysRoleMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.role_id,a.role_name,a.role_key,a.role_type,dept_id,a.sort_order,a.status,a.description,a.system_flag,a.sort_order      ,b.account_id         from sys.role a         left join sys.account_vs_role b on a.role_id = b.role_id          WHERE  b.account_id =?          order by a.sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:101)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy78.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysRoleServiceImpl.findByAccurate(SysRoleServiceImpl.java:67)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.findRole(SysAccountBusinessImpl.java:216)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.doLogin(SysAccountBusinessImpl.java:71)
+	at com.yxzhishu.platform.app.system.controller.SysAccountController.doLogin(SysAccountController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 字段 "dept_id" 不存在
+  位置：71
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 64 common frames omitted
+2024-03-06 13:41:55 -{dataSource-1} closing ...
+2024-03-06 13:41:55 -{dataSource-1} closed
+2024-03-06 13:41:58 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 13:41:58 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 19648 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 13:41:58 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 13:41:59 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 13:41:59 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 13:41:59 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:41:59 -Starting service [Tomcat]
+2024-03-06 13:41:59 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 13:41:59 -Initializing Spring embedded WebApplicationContext
+2024-03-06 13:41:59 -Root WebApplicationContext: initialization completed in 1072 ms
+2024-03-06 13:42:00 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 13:42:00 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:42:00 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 13:42:00 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:42:00 -api模块自动加载成功...
+2024-03-06 13:42:00 -base模块自动加载成功...
+2024-03-06 13:42:00 -dictionary模块自动加载成功...
+2024-03-06 13:42:00 -system模块自动加载成功...
+2024-03-06 13:42:00 -temporary模块自动加载成功...
+2024-03-06 13:42:01 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:42:01 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 13:42:01 -Started YxzhishuPlatformAppStartApplication in 2.869 seconds (JVM running for 3.596)
+2024-03-06 13:42:01 -项目启动成功！
+2024-03-06 13:42:07 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 13:42:07 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 13:42:07 -Completed initialization in 1 ms
+2024-03-06 13:42:07 -{dataSource-1} inited
+2024-03-06 13:42:08 -全局异常：org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: com.yxzhishu.platform.app.system.entity.po.SysAccount.getRoleId()Ljava/lang/Long;
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: com.yxzhishu.platform.app.system.entity.po.SysAccount.getRoleId()Ljava/lang/Long;
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoSuchMethodError: com.yxzhishu.platform.app.system.entity.po.SysAccount.getRoleId()Ljava/lang/Long;
+	at com.yxzhishu.platform.app.system.entity.convert.SysAccountConvertImpl.poToVo(SysAccountConvertImpl.java:35)
+	at com.yxzhishu.platform.app.system.business.impl.SysAccountBusinessImpl.doLogin(SysAccountBusinessImpl.java:72)
+	at com.yxzhishu.platform.app.system.controller.SysAccountController.doLogin(SysAccountController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	... 42 common frames omitted
+2024-03-06 13:42:30 -{dataSource-1} closing ...
+2024-03-06 13:42:30 -{dataSource-1} closed
+2024-03-06 13:43:01 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 13:43:01 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 23676 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 13:43:01 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 13:43:01 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 13:43:02 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 13:43:02 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:43:02 -Starting service [Tomcat]
+2024-03-06 13:43:02 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 13:43:02 -Initializing Spring embedded WebApplicationContext
+2024-03-06 13:43:02 -Root WebApplicationContext: initialization completed in 1115 ms
+2024-03-06 13:43:02 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 13:43:02 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:43:03 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 13:43:03 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:43:03 -api模块自动加载成功...
+2024-03-06 13:43:03 -base模块自动加载成功...
+2024-03-06 13:43:03 -dictionary模块自动加载成功...
+2024-03-06 13:43:03 -system模块自动加载成功...
+2024-03-06 13:43:03 -temporary模块自动加载成功...
+2024-03-06 13:43:03 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:43:03 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 13:43:03 -Started YxzhishuPlatformAppStartApplication in 3.007 seconds (JVM running for 4.051)
+2024-03-06 13:43:03 -项目启动成功！
+2024-03-06 13:43:12 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 13:43:12 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 13:43:12 -Completed initialization in 0 ms
+2024-03-06 13:43:13 -{dataSource-1} inited
+2024-03-06 13:43:13 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:48)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:44:15 -{dataSource-1} closing ...
+2024-03-06 13:44:15 -{dataSource-1} closed
+2024-03-06 13:44:44 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 13:44:44 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 5968 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 13:44:44 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 13:44:45 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 13:44:45 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 13:44:45 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:44:45 -Starting service [Tomcat]
+2024-03-06 13:44:45 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 13:44:46 -Initializing Spring embedded WebApplicationContext
+2024-03-06 13:44:46 -Root WebApplicationContext: initialization completed in 1290 ms
+2024-03-06 13:44:46 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 13:44:46 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:44:46 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 13:44:46 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:44:47 -api模块自动加载成功...
+2024-03-06 13:44:47 -base模块自动加载成功...
+2024-03-06 13:44:47 -dictionary模块自动加载成功...
+2024-03-06 13:44:47 -system模块自动加载成功...
+2024-03-06 13:44:47 -temporary模块自动加载成功...
+2024-03-06 13:44:47 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:44:47 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 13:44:47 -Started YxzhishuPlatformAppStartApplication in 3.276 seconds (JVM running for 4.096)
+2024-03-06 13:44:47 -项目启动成功！
+2024-03-06 13:48:45 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 13:48:45 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 13:48:45 -Completed initialization in 1 ms
+2024-03-06 13:48:45 -{dataSource-1} inited
+2024-03-06 13:49:04 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:48)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:49:04 -{dataSource-1} closing ...
+2024-03-06 13:49:04 -{dataSource-1} closed
+2024-03-06 13:50:29 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 13:50:29 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 22820 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 13:50:29 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 13:50:30 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 13:50:30 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 13:50:30 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:50:30 -Starting service [Tomcat]
+2024-03-06 13:50:30 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 13:50:30 -Initializing Spring embedded WebApplicationContext
+2024-03-06 13:50:30 -Root WebApplicationContext: initialization completed in 1293 ms
+2024-03-06 13:50:31 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 13:50:31 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:50:31 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 13:50:31 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:50:32 -api模块自动加载成功...
+2024-03-06 13:50:32 -base模块自动加载成功...
+2024-03-06 13:50:32 -dictionary模块自动加载成功...
+2024-03-06 13:50:32 -system模块自动加载成功...
+2024-03-06 13:50:32 -temporary模块自动加载成功...
+2024-03-06 13:50:32 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:50:32 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 13:50:32 -Started YxzhishuPlatformAppStartApplication in 3.398 seconds (JVM running for 4.289)
+2024-03-06 13:50:32 -项目启动成功！
+2024-03-06 13:50:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 13:50:37 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 13:50:37 -Completed initialization in 1 ms
+2024-03-06 13:50:38 -{dataSource-1} inited
+2024-03-06 13:50:45 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:50)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:51:28 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:50)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:51:28 -{dataSource-1} closing ...
+2024-03-06 13:51:28 -{dataSource-1} closed
+2024-03-06 13:51:39 -HV000001: Hibernate Validator 6.2.5.Final
+2024-03-06 13:51:39 -Starting YxzhishuPlatformAppStartApplication using Java 1.8.0_311 on LAPTOP-ERQNR93S with PID 16492 (E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-start\target\classes started by lmj in E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app)
+2024-03-06 13:51:39 -No active profile set, falling back to 1 default profile: "default"
+2024-03-06 13:51:40 -No MyBatis mapper was found in '[com.yxzhishu.platform.app.start]' package. Please check your configuration.
+2024-03-06 13:51:40 -Tomcat initialized with port(s): 8092 (http)
+2024-03-06 13:51:40 -Initializing ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:51:40 -Starting service [Tomcat]
+2024-03-06 13:51:40 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-06 13:51:41 -Initializing Spring embedded WebApplicationContext
+2024-03-06 13:51:41 -Root WebApplicationContext: initialization completed in 1560 ms
+2024-03-06 13:51:41 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole".
+2024-03-06 13:51:41 -class com.yxzhishu.platform.app.system.entity.po.SysAccountVsRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:51:42 -Can not find table primary key in Class: "com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu".
+2024-03-06 13:51:42 -class com.yxzhishu.platform.app.system.entity.po.SysRoleVsMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-03-06 13:51:42 -api模块自动加载成功...
+2024-03-06 13:51:42 -base模块自动加载成功...
+2024-03-06 13:51:42 -dictionary模块自动加载成功...
+2024-03-06 13:51:42 -system模块自动加载成功...
+2024-03-06 13:51:42 -temporary模块自动加载成功...
+2024-03-06 13:51:43 -Starting ProtocolHandler ["http-nio-8092"]
+2024-03-06 13:51:43 -Tomcat started on port(s): 8092 (http) with context path '/api'
+2024-03-06 13:51:43 -Started YxzhishuPlatformAppStartApplication in 4.425 seconds (JVM running for 5.351)
+2024-03-06 13:51:43 -项目启动成功！
+2024-03-06 13:51:45 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-06 13:51:45 -Initializing Servlet 'dispatcherServlet'
+2024-03-06 13:51:45 -Completed initialization in 1 ms
+2024-03-06 13:51:45 -{dataSource-1} inited
+2024-03-06 13:52:01 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:50)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:52:55 -全局异常：org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+### The error may exist in file [E:\MySourceCode\yxzhishu-platform\yxzhishu-platform-app\yxzhishu-platform-app-system\target\classes\mybatis\SysMenuMapper.xml]
+### The error may involve com.yxzhishu.platform.app.system.mapper.SysMenuMapper.findByAccurate-Inline
+### The error occurred while setting parameters
+### SQL: select                   a.menu_id         ,a.menu_name,a.menu_type,a.menu_path,a.component,         a.parent_id,a.system_flag,a.title,a.icon,a.hidden,         a.keep_alive,a.sort_order,a.status,a.description      ,b.role_id         from sys.menu a         left join sys.role_vs_menu b on a.menu_id = b.menu_id          WHERE  role_id in          order by sort_order
+### Cause: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy74.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy75.findByAccurate(Unknown Source)
+	at com.yxzhishu.platform.app.system.service.impl.SysMenuServiceImpl.findByAccurate(SysMenuServiceImpl.java:38)
+	at com.yxzhishu.platform.app.system.business.impl.SysMenuBusinessImpl.findRoute(SysMenuBusinessImpl.java:50)
+	at com.yxzhishu.platform.app.system.controller.SysMenuController.findRoute(SysMenuController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: 错误: 语法错误 在 "order" 或附近的
+  位置：348
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy96.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 63 common frames omitted
+2024-03-06 13:52:55 -{dataSource-1} closing ...
+2024-03-06 13:52:55 -{dataSource-1} closed

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxzhishu.platform.app.system.mapper.SysMenuMapper">
+    <sql id="basesql">
+        select a.menu_id
+        ,a.menu_name,a.menu_type,a.menu_path,a.component,
+        a.parent_id,a.system_flag,a.title,a.icon,a.hidden,
+        a.keep_alive,a.sort_order,a.status,a.description
+    </sql>
+    <select id="findMenu" resultType="com.yxzhishu.platform.app.system.entity.dto.SysMenuDTO">
+        <include refid="basesql"/>
+        from sys.menu a
+        <where>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="search != null and search != ''">
+                and (
+                menu_name like concat('%', #{search}, '%')
+                or menu_path like concat('%', #{search}, '%')
+                or title like concat('%', #{search}, '%')
+                )
+            </if>
+        </where>
+        order by sort_order
+    </select>
+    <select id="findByAccurate" resultType="com.yxzhishu.platform.app.system.entity.dto.SysMenuDTO"
+            parameterType="com.yxzhishu.platform.app.api.system.entity.param.PageMenuByAccurateParam">
+        <include refid="basesql"/>,b.role_id
+        from sys.menu a
+        left join sys.role_vs_menu b on a.menu_id = b.menu_id
+        <where>
+            <if test="roleId != null">
+                and role_id = #{roleId}
+            </if>
+            <if test="menuIdList != null">
+                and a.menu_id in
+                <foreach collection="menuIdList" open="(" close=")" item="item" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+            <if test="roleIdList != null">
+                and role_id in
+                <foreach collection="roleIdList" open="(" close=")" item="item" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+        </where>
+        order by sort_order
+    </select>
+</mapper>

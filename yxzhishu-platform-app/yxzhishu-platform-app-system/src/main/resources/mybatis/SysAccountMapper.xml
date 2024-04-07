@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxzhishu.platform.app.system.mapper.SysAccountMapper">
+    <sql id="baseParam">
+        select a.account_id,a.account_code,a.password,a.salt,a.nickname,a.status,
+        a.phone,a.email,a.description,a.avatar,a.last_login_time,a.system_flag,
+        a.last_login_ip,a.user_id
+    </sql>
+    <select id="findAccount" resultType="com.yxzhishu.platform.app.system.entity.dto.SysAccountDTO">
+        <include refid="baseParam" />
+        from sys.account a
+        <where>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="search != null and search != ''">
+                and (
+                    account_code like concat('%', #{search}, '%')
+                    or nickname like concat('%', #{search}, '%')
+                    or phone like concat('%', #{search}, '%')
+                    or email like concat('%', #{search}, '%')
+                    or description like concat('%', #{search}, '%')
+                )
+            </if>
+        </where>
+    </select>
+    <select id="findByAccurate" resultType="com.yxzhishu.platform.app.system.entity.dto.SysAccountDTO">
+        <include refid="baseParam" />
+        from sys.account a
+        <where>
+            <if test="accountId != null">
+                and account_id = #{accountId}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="phone != null">
+                and phone = #{phone}
+            </if>
+            <if test="mail != null">
+                and email = #{mail}
+            </if>
+            <if test="accountCode != null">
+                and account_code = #{accountCode}
+            </if>
+        </where>
+
+    </select>
+</mapper>
